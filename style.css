@@ -1,0 +1,11 @@
+#main, footer {
+    text-align: center;
+}
+
+#pictureContainer img {
+    border: 2px black solid;
+    margin: 0 auto;
+    max-height: 250px;
+    max-width: 250px;
+}
+
