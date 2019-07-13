@@ -7,6 +7,7 @@ $.getJSON('https://api.unsplash.com/photos/random/?client_id=6caf1758c800234726c
     $('#picture').append('<img src=' + imageURLReg + '>');
     $('#pictureCaption').append('<p>' + photoDescription + '</p>');
     $('#downloadLink').attr('href', downloadLink);
+    $('#downloadLink').attr('target', '_blank');
 });
 
 
@@ -22,6 +23,7 @@ $('#randomPicture').click(function(){
     $('#picture').append('<img src=' + imageURLReg + '>');
     $('#pictureCaption').append('<p>' + photoDescription + '</p>');
     $('#downloadLink').attr('href', downloadLink);
+    $('#downloadLink').attr('target', '_blank');
     });  
 })
 
